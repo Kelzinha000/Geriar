@@ -1,0 +1,235 @@
+:root{ 
+    
+    ---primaria: rgb(145, 0, 157);
+  ---primaria-escura: rgba(75, 0, 82, 0.925);;
+  ---primaria-clara: rgb(181, 41, 194);
+
+  ---secudaria:rgb(250, 235, 215);
+  ---secundaria-clara: rgb(254, 245, 233);
+  ---secundaria-escura: rgb(254, 215, 163);
+  ---seundaria2:rgba(224, 192, 150, 0.692);
+
+  ---black: #000;
+  ---grey:#CCCC;
+  ---white:#fff;
+
+}
+  
+  main{
+     padding: 60px;
+      margin-top: 50px;
+      
+  }
+  body{
+     background-color: var(---secudaria);
+  
+     
+  }
+  
+  .barra-nav{
+      text-align: end;
+      box-shadow: black;
+      display:block;
+      margin: -50px;
+      margin-right: 50px;
+      word-spacing: 40px;
+      
+     
+  }
+  
+  .nav{
+      background: var(---primaria);
+         
+          margin-right: 20px;
+          height: 100px;
+          
+          
+  }
+      
+  .nav-link{
+      font-family: 'Kanit', sans-serif;
+      text-decoration: none;
+      color: var(---secundaria-clara);
+      font-size: 20px;
+      align-items: flex-end;
+      
+    }
+       
+     
+      
+  
+  .nav-link2{
+      color: var(---secundaria-clara);
+      background-color: var(---primaria-escura);
+      text-decoration: none;
+      font-family: 'Kanit', sans-serif;
+      font-size: 30px;
+      border: solid 5px var(---primaria-escura);
+      border-radius:30px;
+  }
+      
+  a:hover{
+      text-decoration: underline;
+      color: var(---secundaria-clara);
+      transition: 1s;}
+  
+  .home{
+      display: flex;
+      align-items:center;
+  }
+  /* .corpo-principal{
+     display: flex;
+     flex-direction: row;
+  } */
+  
+  
+  .img{
+      
+      height: 650px;
+      width: 450px;
+      margin: 25px  60px 25px 300px;
+     
+  }
+  
+  .subtitulos{
+      color:var(---black);
+      font-size: 50px;
+
+  }
+  
+  
+  .home-cadastro-login{
+      color: var(---primaria-escura);
+      font-family: 'Kanit', sans-serif;
+      text-align: start;
+      width: 450px;
+      
+    } 
+  
+  
+      .paragrafo2{
+          color: var(---secundaria-clara);
+          font-family: 'Kanit', sans-serif;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+      } 
+      .paragrafo1{
+          color:var(---preto) ;
+          font-family: 'Kanit', sans-serif;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          font-size: 20px;
+      } 
+  
+      .logo{
+          color: var(---secundaria-clara);
+          font-size: 40px;
+          height: 100px; 
+          width: 160px;
+          margin-left: 38px;
+      }
+  
+  
+      header{
+          box-shadow: inset black;
+      }
+  
+  
+     
+  
+       .pergunta{
+          color: var(---secundaria-clara);
+          text-align: center;
+          font-size: 50px;
+          font-family: 'Kanit', sans-serif;
+          background-color: var(---primaria-escura);
+      }
+  
+   
+  .corpo-principal2{
+  
+      display: flex;
+      align-items:center;
+      justify-content: space-around;}
+  
+      .X{
+          color: var(---secundaria2);
+      }
+  
+  
+      .img-1{
+          height: 400px;
+          width: 400px;
+          margin: 5px 0px 0px 10px; 
+         
+      }
+    
+    .button-google{
+      border-radius: 25px;
+      width: 500px;
+      height: 50px;
+      border: var(---grey) solid 4px;
+      margin-bottom: 30px;
+      font-family: 'Kanit', sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+     
+    }
+      .button-login{
+        border-radius: 25px;
+        width: 500px;
+        height: 50px;
+        color: white;
+        background-color:var(---primaria);
+        border: var(---primaria);
+        font-family: 'Kanit', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        
+      }
+    h4{
+        color: var(---black);
+         margin-left: 60px;
+         padding-inline-start: 2px;
+        
+      }
+      .button-cadastro{
+        width: 230px;
+        height: 50px;
+        border-radius: 25px;
+        background-color: var(---primaria-escura);
+        color: var(---white);
+        font-family: 'Kanit', sans-serif;
+        font-weight:400;
+        display: inline-block;
+    }
+
+        .box-cadastro{
+            display: flex;
+            align-items: flex-end;
+            justify-content: end;
+            margin: -50px;
+            margin-bottom:4px;
+            
+            
+        }
+
+      /* .box01{
+        width: 523px;
+        height: 660px;
+        background-color: #E0C096;
+        backdrop-filter: blur(52.4);
+      } */
+
+      .img-google{
+        width: 50px;
+        height: 35px;
+        margin: -10px;
+        word-spacing: 10px;
+        
+      }
+      
