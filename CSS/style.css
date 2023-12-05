@@ -11,6 +11,7 @@
 
   ---black: #000;
   ---grey:#CCCC;
+  ---grey2: #545455;
   ---white:#fff;
 
 }
@@ -115,16 +116,7 @@
           align-items: center;
           justify-content: space-around;
       } 
-      .paragrafo1{
-          color:var(---preto) ;
-          font-family: 'Kanit', sans-serif;
-          text-align: center;
-          display: flex;
-          align-items: center;
-          justify-content: space-around;
-          font-size: 20px;
-      } 
-  
+      
       .logo{
           color: var(---secundaria-clara);
           font-size: 40px;
@@ -238,4 +230,43 @@
         margin: -10px;
         margin-right: 3px;        
       }
+      
+      .bos-perfil{
+        padding-left: 400px;
+        display: flex;
+        
+        }
+        section{
+            display: block;
+            margin: 70px ; 
+            display: flex;
+            align-items: end;
+            justify-content: end;
+
+            
+            
+        
+        }
+      .formulario-profissional{
+         display: flex;
+        text-align: start;
+        color: var(---grey2);
+        margin: 10px;
+        font-family: 'Hedvig Letters Serif', serif;
+        font-family: 'Kanit', sans-serif;
+        font-weight: bold;
+        flex-direction: column;
+        font-size: 14px; 
+        max-width: 400px;
+    }
+    input{
+        margin: 10px;
+        font-size:20px;
+        font-family: 'Kanit', sans-serif;
+        border-radius: 13px;
+        border: 3px;
+        background-color: var(---grey);
+    } 
+    
+
       
