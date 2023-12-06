@@ -33,16 +33,21 @@
       display:block;
       margin: -50px;
       margin-right: 50px;
-      word-spacing: 40px;
-      
-     
+      word-spacing: 40px; 
+  }
+  .barra-nav-perfil{
+    text-align: end;
+      box-shadow: black;
+      display:block;
+      margin: -75px;
+      margin-right: 50px;
+      word-spacing: 40px; 
   }
   
   .nav{
       background: var(---primaria);
-         
-          margin-right: 20px;
-          height: 100px;
+      margin-right: 20px;
+      height: 100px;
           
           
   }
@@ -66,7 +71,7 @@
       border-radius:30px;
   }
       
-  a:hover{
+  .nav-link:hover{
       text-decoration: underline;
       color: var(---secundaria-clara);
       transition: 1s;}
@@ -226,7 +231,7 @@
            margin-left: 600px;
             align-items: end;
             justify-content: end;
-            margin-top: -255px;
+            margin-top: -270px;
             margin-right: 50px;
             margin-bottom: 50px;
   
@@ -245,20 +250,20 @@
         
     }
     input{
-        margin: 10px;
+        padding: 2px;
         font-size:20px;
         font-family: 'Kanit', sans-serif;
         border-radius: 13px;
         border: 3px;
         background-color: var(---grey);
     } 
-    .img-usuario{
+    .img-perfil{
       width: 80px;
       height: 80px;
       margin-left: 35px;
       
     }
-    .texto-usuario-alterar-foto{
+    .texto-perfil-alterar-foto{
       font-family: 'Kanit', sans-serif;
       font-size: 15px;
       margin-left: 145px;
@@ -266,7 +271,7 @@
       text-align: center;
       margin-left:250px
     }
-    .texto-saudacao-usuario{
+    .texto-saudacao-perfil{
       font-size: 30px;
       width: 20px;
       font-family: 'Kanit', sans-serif;
@@ -275,6 +280,28 @@
       margin-left:250px
 
     }
+    .img-back{
+      margin-top: -80px;
+      width: 10px;
+      height: 10px;
+    }
+    .link-back{
+      font-family: 'Kanit', sans-serif;
+      text-decoration: none;
+      text-align: center;
+      color: var(---primaria);
+      padding-left: 35px;
+      padding-bottom: -4px;
+    }
+ .img-male-user{
+  width: 40px;
+  height: 40px;
+  margin-bottom: -10px;
+ 
+ }
+ .perfil-usuario{
+  text-align: center;
+ }
     
     
       
